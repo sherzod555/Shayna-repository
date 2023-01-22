@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Shayna | tailwind practice site by sher_555</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <div class="navigation__section custom__container">
+
+
+
+        <nav class="flex items-center justify-between pt-10">
+            <div>
+                <a href="./index.html">
+                    <p class="font-medium text-[32px] leading-[48px]">Shayna</p>
+                </a>
+            </div>
+            <div class="nav__menu">
+                <ul class="flex gap-x-12">
+                    <li class="hover:underline">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="hover:underline">
+                        <a href="#">Start</a>
+                    </li>
+                    <li class="hover:underline">
+                        <a href="#">Browse</a>
+                    </li>
+                    <li class="hover:underline">
+                        <a href="#">Pricing</a>
+                    </li>
+                    <li class="hover:underline">
+                        <a href="#">Story</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__btn">
+                <button class="rounded-md border-solid border-[1px] border-[#1F1D2A] w-[110px] h-[45px] hover:underline hover:shadow-md">Sign In</button>
+            </div>
+        </nav>
+    </div>
+
+
+    <main class="main__section custom__container flex pt-[100px] gap-x-[80px]">
+        <section class="text__section">
+            <p class="text__title font-semibold text-[55px] leading-[82px]">Learn UI Design<br>From The Real Expert</p>
+            <p class="text__desc text-base leading-[30px] text-[#9B948E] pt-[30px]">Stop wasting time browsing around and start learning<br>from our designers for your better career</p>
+            <button class="mt-[50px] w-[170px] h-[70px] bg-[#96C67F] rounded-md font-medium text-xl hover:underline hover:shadow-md">Get Started</button>
+        </section>
+
+        <section class="image__section relative inset-0">
+            <img class="main_avatar relative w-[500px] h-[500px] inset-0" src="./images/avatar.svg" alt="main">
+            <img class="play_btn_img absolute w-[80px] h-[80px] top-[45%] right-[-10%]" src="./images/play-button.svg" alt="play">
+            <img class="rating_img absolute w-[180px] h-[130px] top-[80%] left-[5%]" src="./images/fivestars.svg" alt="rating">
+        </section>
+    </main>
+
+
+    <main class="trusted_companies custom__container">
+
+        <p class="font-medium text-base text-center pt-[100px]">
+            Trusted by Global Companies
+        </p>
+
+        <section class="flex item-center justify-center gap-x-[60px] pt-[30px]">
+            <img src="./images/apple.svg" alt="apple">
+            <img src="./images/adobe.svg" alt="adobe">
+            <img src="./images/slack.svg" alt="slack">
+            <img src="./images/spotify.svg" alt="spotify">
+            <img src="./images/google.svg" alt="google">
+        </section>
+
+
+        <section class="pt-[100px]">
+            <p class="text-lg font-medium text-center">
+                Grow Today
+            </p>
+
+            <p class="pt-[10px] font-semibold text-[32px] leading-[48px] text-center">Start Your Career</p>
+
+
+            <section class="p-[60px] flex item-center justify-between gap-x-[30px]">
+
+                <article>
+                    <img src="./images/hijabgirl-pink-bg.svg" alt="avatar">
+                    <div class="p-5 h-[110px] grid gap-y-1.5 bg-white rounded-b-3xl">
+                        <p>
+                            Aisyah
+                        </p>
+                        <p class="text-base text-[#9B948E]">I teach how to start UX</p>
+                    </div>
+                </article>
+
+
+                <article>
+                    <img src="./images/boy-orange-bg.svg" alt="avatar">
+                    <div class="p-5 h-[110px] grid gap-y-1.5 bg-white rounded-b-3xl">
+                        <p>
+                            Angga
+                        </p>
+                        <p class="text-base text-[#9B948E]">I teach how to design test</p>
+                    </div>
+                </article>
+
+
+                <article>
+                    <img src="./images/boy-violet-bg.svg" alt="avatar">
+                    <div class="p-5 h-[110px] grid gap-y-1.5 bg-white rounded-b-3xl">
+                        <p>
+                            Mabdul
+                        </p>
+                        <p class="text-base text-[#9B948E]">I teach how to asses design</p>
+                    </div>
+                </article>
+
+
+                <article>
+                    <img src="./images/girl-pink-bg.svg" alt="avatar">
+                    <div class="p-5 h-[110px] grid gap-y-1.5 bg-white rounded-b-3xl">
+                        <p>
+                            Wo You
+                        </p>
+                        <p class="text-base text-[#9B948E]">I teach how to do icons</p>
+                    </div>
+                </article>
+
+            </section>
+
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
